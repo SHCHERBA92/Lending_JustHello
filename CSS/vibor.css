@@ -1,0 +1,334 @@
+.vibor{
+    height: 600px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 150px;
+}
+
+.viborTextP{
+    font-size: 36px;
+    font-weight: 800;
+    border-bottom: 5px solid violet;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.viborBody1{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+    border-radius: 15px;
+    padding: 15px;
+    border: 2px double gold;
+
+}
+
+.viborBody2{
+    display: grid;
+    grid-template-rows: 220px 65px 65px 100px;
+    grid-template-columns: 1fr 1fr;
+    border: 2px double gold;
+    padding: 20px;
+}
+
+
+.viborPodushkaImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* background-color: blue; */
+    
+    border: 2px solid black;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    justify-self: center;
+    align-self: flex-end;
+
+    cursor: pointer;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.viborPodushkaImg p{
+    font-size: 28px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.viborVerchLezanki{
+    width: 300px;
+    height: 60px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    /* background-color: blue; */
+    border: 2px solid black;
+    border-bottom: 0px;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    justify-self: center;
+    align-self: flex-end;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    cursor: pointer;
+}
+
+.viborVerchLezanki p{
+    font-size: 28px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
+
+.viborNizLezanki{
+    width: 300px;
+    height: 60px;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    /* background-color: blue; */
+    border: 2px solid black;
+    border-top: 0px;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    justify-self: center;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    cursor: pointer;
+}
+
+.viborNizLezanki p{
+    font-size: 28px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* margin-bottom: 25px; */
+    align-self: flex-start;
+    justify-self: center;
+}
+
+
+.colors{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    background-color: transparent;
+    visibility: hidden;
+    height: 150px;
+    border-radius: 15px;
+
+    justify-self: center;
+    align-self: center;
+}
+
+.colors p{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.color{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#colorsColor1{
+    background-image: url("..//IMG_Site/PodushkaColor1JS.png");
+}
+
+#colorsColor2{
+    background-image: url("..//IMG_Site/PodushkaColor2JS.png");
+}
+
+#colorsColor3{
+    background-image: url("..//IMG_Site/PodushkaColor3JS.png");
+}
+
+#colorsColor4{
+    background-image: url("..//IMG_Site/PodushkaColor4JS.png");
+}
+
+#colorsColor5{
+    background-image: url("..//IMG_Site/PodushkaColor5JS.png");
+}
+
+#colorsColor6{
+    background-image: url("..//IMG_Site/PodushkaColor6JS.png");
+}
+
+#colorsColor7{
+    background-image: url("..//IMG_Site/PodushkaColor7JS.png");
+}
+
+#colorsColor8{
+    background-image: url("..//IMG_Site/PodushkaColor8JS.png");
+}
+
+#colorsColor9{
+    background-image: url("..//IMG_Site/PodushkaColor9JS.png");
+}
+
+
+.colorsVerchLez{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    background-color: transparent;
+    visibility: hidden;
+    height: 150px;
+    border-radius: 15px;
+
+    justify-self: center;
+    align-self: center;
+}
+
+.colorVerx{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    border: 2px solid black;
+}
+
+.colorsVerchLez p{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#colorVerxColor1{
+    background-image: url("..//IMG_Site/verchLez1JS.png");
+}
+
+#colorVerxColor2{
+    background-image: url("..//IMG_Site/verchLez2JS.png");
+}
+
+#colorVerxColor3{
+    background-image: url("..//IMG_Site/verchLez3JS.png");
+}
+
+#colorVerxColor4{
+    background-image: url("..//IMG_Site/verchLez4JS.png");
+}
+
+#colorVerxColor5{
+    background-image: url("..//IMG_Site/verchLez5JS.png");
+}
+
+#colorVerxColor6{
+    background-image: url("..//IMG_Site/verchLez6JS.png");
+}
+
+
+
+
+.colorsNizLez{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    background-color: transparent;
+    visibility: hidden;
+    height: 150px;
+    border-radius: 15px;
+
+    justify-self: center;
+    align-self: center;
+}
+
+.colorNiz{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    border: 2px solid black;
+}
+
+.colorsNizLez p{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#colorNizColor1{
+    background-image: url("..//IMG_Site/verchLez1JS.png");
+}
+
+#colorNizColor2{
+    background-image: url("..//IMG_Site/verchLez2JS.png");
+}
+
+#colorNizColor3{
+    background-image: url("..//IMG_Site/verchLez3JS.png");
+}
+
+#colorNizColor4{
+    background-image: url("..//IMG_Site/verchLez4JS.png");
+}
+
+#colorNizColor5{
+    background-image: url("..//IMG_Site/verchLez5JS.png");
+}
+
+#colorNizColor6{
+    background-image: url("..//IMG_Site/verchLez6JS.png");
+}
+
+
+.viborBody2 input[type=button]{
+    /* grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3; */
+
+    height: 80px;
+    width: 350px;
+    background-color: #338D57;
+    border: 5px solid #FFC5B7;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #B8D8E6;
+    padding-bottom: 10px;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.viborBody2 a{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    height: 80px;
+    width: 350px;
+
+    justify-self: center;
+    align-self: flex-end;
+}

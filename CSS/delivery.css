@@ -1,0 +1,84 @@
+.DeliveryAndContact{
+    height: 700px;
+    /* background-color:#855811; */
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background-color: #C25943;
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.DeliveryAndContact h2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    align-self: center;
+    justify-self: center;
+}
+
+.Contact{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    /* border: 1px solid sienna; */
+}
+
+.Contact p{
+    font-size: 36px;
+    word-spacing: 15px;
+}
+
+.contentContacte{
+    /* width: 1000px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #FF7A00;
+    border-radius: 20px;
+   
+}
+
+.contentContacte div{
+    /* border: 2px solid red; */
+    display: inline-flex;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Contact div span{
+    font-size: 35px;
+    position: relative;
+    /* bottom: 10px; */
+    
+}
+
+.logoInsta span{
+    bottom: 10px;
+}
+
+.logoInsta a{
+    text-decoration: none;
+}
+
+.timeContact{
+    margin-top: 10px;
+}
+
+.Delivery{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.Delivery p{
+    font-size: 28px;
+}

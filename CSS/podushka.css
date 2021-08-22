@@ -1,0 +1,105 @@
+.Podushki{
+    background-color: #e89c78;
+    height: 900px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Podushki h2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+    
+    word-spacing: 10px;
+    font-size: 36px;
+    letter-spacing: 10px;
+}
+
+.Podushki img{
+    border-radius: 10px;
+}
+
+.podushkiText{
+    font-size: 28px;
+    font-weight: 700;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    line-height: 40px;
+    word-spacing: 10px;
+    margin-left: 20px;
+    align-self: flex-start;
+}
+
+.PodushkiPict2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.podushkiText2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-self: flex-end;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    word-spacing: 10px;
+    margin-left: 20px;
+}
+
+.Podushki input[type=button]{
+    /* grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3; */
+
+    height: 100px;
+    width: 250px;
+    background-color: #338D57;
+    border: 5px solid #FFC5B7;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #B8D8E6;
+    padding-bottom: 10px;
+    /* justify-self: center; */
+}
+
+.Podushki a{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    height: 100px;
+    width: 250px;
+
+    justify-self: center;
+
+    /* height: 100px;
+    width: 250px;
+    background-color: #338D57;
+    border: 5px solid #FFC5B7;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #B8D8E6;
+    padding-bottom: 10px;
+    justify-self: center; */
+}

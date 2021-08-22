@@ -1,0 +1,111 @@
+.Header{
+    /* background-color: blue; */
+    height: 600px;
+    background-image: url("..//IMG_Site/hederPicture.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* background-position: bottom; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 100px 1fr 100px;
+    border-bottom-right-radius: 10px;
+}
+
+.logo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+   
+}
+
+.Header ul{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    justify-self: flex-end;
+    align-self: start;
+}
+
+.Header li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.Header li:first-child
+{
+    margin-left: 0px;
+}
+
+
+
+.Header li a{
+    color:#99375F;
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.Header li input{
+    background-color: #338D57;
+    border: 2px solid #FFC5B7;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #B8D8E6;
+    height: 30px;
+}
+
+.Header li input,
+.Header li input:after,
+.Header li input:focus{
+    outline: none !important;
+}
+
+.Header p{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: center;
+    color: #A6743C;
+    font-size: 24px;
+    font-weight: 600;
+    width: 590px;
+    line-height: 55px;
+}
+
+.ButZakaz{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    min-height: 50px;
+    min-width: 100px;
+    height: 100px;
+    width: 250px; 
+    background-color: #338D57;
+    border: 5px solid #FFC5B7;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #B8D8E6;
+    
+}
+
+.ButZakaz,
+.ButZakaz:active,
+.ButZakaz:focus {
+    outline: none !important;
+}
+
+.ButZakazA{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 100px;
+    width: 250px; 
+}

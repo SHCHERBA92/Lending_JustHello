@@ -1,0 +1,15 @@
+@font-face{
+    font-family: newFontSite;
+    src: url(19689.otf);
+}
+
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #9cd9b5;
+    /* padding-top: 30px; */
+    width: 1350px;
+    /* text-align: center; */
+    font-family: newFontSite;
+}
+
